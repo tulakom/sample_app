@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,6 +55,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  Rails.application.routes.draw do
- root 'application#hello'
+  root 'application#hello'
+
 end
